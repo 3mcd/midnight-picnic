@@ -1,0 +1,222 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter, :host .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide, :host .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide, :host .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character, :host .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+  background-color: #3D3B52;
+}
+
+.comment {
+  color: #5F5E6E;
+}
+
+.keyword, .storage {
+  color: #CF9F88;
+}
+
+.constant.numeric {
+  color: #3DA3AD;
+}
+
+.constant {
+  color: #CF9F88;
+}
+
+.constant.language {
+  color: #3DA3AD;
+}
+
+.variable.language, .variable.other {
+  color: #D15A7C;
+}
+
+.string {
+  color: #C9B479;
+}
+
+.constant.character.escape, .string .source {
+  color: #C9B479;
+}
+
+.meta.preprocessor {
+  color: #CF9F88;
+}
+
+.keyword.control.import {
+  color: #CF9F88;
+}
+
+.entity.name.function {
+  color: #A4A8A0;
+}
+
+.entity.name.type {
+  color: #A4A8A0;
+}
+
+.entity.other.inherited-class {
+  color: #A4A8A0;
+}
+
+.variable.parameter {
+  background-color: #3D3B4A;
+}
+
+.storage.type.method {
+  color: #A4A8A0;
+}
+
+.meta.section .entity.name.section, .declaration.section .entity.name.section {
+  color: #A4A8A0;
+}
+
+.support.function {
+  color: #A4A8A0;
+}
+
+.support.class, .support.type {
+  color: #D15A7C;
+}
+
+.support.constant {
+  color: #A4A8A0;
+}
+
+.support.variable {
+  color: #D15A7C;
+}
+
+.keyword.operator.js {
+  color: #B3B8AE;
+}
+
+.meta.structure.dictionary.json .string.quoted.double.json {
+  color: #A4A8A0;
+}
+
+.invalid {
+}
+
+.invalid.deprecated.trailing-whitespace {
+  color: #FFFFFF;
+  background-color: #FFD0D0;
+}
+
+.text .source, .string.unquoted {
+  color: #A4A8A0;
+}
+
+.text .source .string.unquoted, .text .source .text .source {
+  color: #A4A8A0;
+}
+
+.meta.tag.preprocessor.xml {
+  color: #676767;
+}
+
+.meta.tag.sgml.doctype, .meta.tag.sgml.doctype .entity, .meta.tag.sgml.doctype .string, .meta.tag.preprocessor.xml, .meta.tag.preprocessor.xml .entity, .meta.tag.preprocessor.xml .string {
+  color: #676767;
+}
+
+.string.quoted.docinfo.doctype.DTD {
+  color: #CC695F;
+}
+
+.meta.tag, .declaration.tag {
+  color: #A4A8A0;
+}
+
+.entity.name.tag {
+  color: #3DA3AD;
+}
+
+.entity.other.attribute-name {
+  color: #A4A8A0;
+}
+
+.markup.heading {
+  font-weight: bold;
+  color: #3DA3AD;
+}
+
+.markup.quote {
+  color: #3DA3AD;
+}
+
+.markup.list {
+  color: #3DA3AD;
+}
+
+.meta.preprocessor.at-rule .keyword.control.at-rule {
+  color: #84A3AD;
+}
+
+.meta.selector.css .entity.other.attribute-name.id {
+  color: #CF9F88;
+}
+
+.entity.other.attribute-name.id {
+  color: #CF9F88;
+}
+
+.meta.selector.css .entity.other.attribute-name.class {
+  color: #CF9F88;
+}
+
+.support.type.property-name.css {
+  color: #3DA3AD;
+}
+
+.entity.other.attribute-name.pseudo-element.css, .entity.other.attribute-name.pseudo-class.css, .entity.other.attribute-name.pseudo-selector.css {
+  color: #D15A7C;
+}
+
+.meta.attribute-selector.css .string {
+  color: #FF950A;
+}

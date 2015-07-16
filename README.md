@@ -1,9 +1,8 @@
 #Midnight Picnic
-```
-I made this theme for programming at night. The theme uses colors that will
-keep you awake but not burn holes in your eyes.
 
-Enjoy!
-```
+A colorful theme for programming during both the day and night.
 
-![screenshot](screenshot.png)
+This repo currently a valid APM package for the Atom editor, and a thTheme file for use with Sublime Text and TextMate. 
+
+![js](ex-js.png)
+![html](ex-html.png)
