@@ -5,7 +5,10 @@
   "description": "A theme for programming during both the day and night.",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "dark",
+    "night",
+    "color"
   ],
   "repository": "https://github.com/ericmcdaniel/midnight-picnic",
   "license": "MIT",
